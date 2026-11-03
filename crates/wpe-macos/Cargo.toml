@@ -1,0 +1,41 @@
+[package]
+name = "wpe-macos"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "wallpaper-macos"
+path = "src/main.rs"
+
+[dependencies]
+wpe-core.workspace = true
+wpe-formats.workspace = true
+serde_json.workspace = true
+image.workspace = true
+half = "=2.7.1"
+wpe-platform = { path = "../wpe-platform" }
+wpe-render = { path = "../wpe-render" }
+wpe-script = { path = "../wpe-script" }
+wpe-editor = { path = "../wpe-editor" }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "=0.6.5"
+libc = "=0.2.191"
+block2 = "=0.6.2"
+objc2-foundation = { version = "=0.3.2", default-features = false, features = ["std", "NSArray", "NSData", "NSDate", "NSError", "NSGeometry", "NSNotification", "NSObject", "NSObjCRuntime", "NSString", "NSTimer", "NSURL", "NSRunLoop", "block2", "NSProcessInfo", "NSCalendar", "NSAttributedString", "NSBundle", "NSFileManager",  "NSDictionary", "NSValue", "NSURLSession", "NSURLRequest", "NSURLResponse"] }
+objc2-app-kit = { version = "=0.3.2", default-features = false, features = ["std", "NSApplication", "NSRunningApplication", "NSPanel", "NSWindow", "NSResponder", "NSView", "NSGraphics", "NSColor", "NSMenu", "NSMenuItem", "NSOpenPanel", "NSSavePanel", "NSScreen", "NSAlert", "NSCell", "NSStatusBar", "NSStatusItem", "NSStatusBarButton", "NSButton", "NSControl", "NSWorkspace", "NSEvent", "block2", "libc", "NSImage", "NSAttributedString", "NSStringDrawing", "NSGraphicsContext", "NSBitmapImageRep", "NSImageRep", "NSFont", "NSParagraphStyle", "NSShadow", "NSText", "NSTextView", "objc2-quartz-core", "objc2-core-foundation"] }
+objc2-metal = { version = "=0.3.2", default-features = false, features = ["std", "MTLDevice", "MTLLibrary", "MTLCommandQueue", "MTLCommandBuffer", "MTLCommandEncoder", "MTLRenderPipeline", "MTLRenderPass", "MTLRenderCommandEncoder", "MTLTexture", "MTLResource", "MTLAllocation", "MTLPixelFormat", "MTLDrawable", "MTLTypes", "MTLBuffer", "MTLSampler", "MTLDepthStencil", "MTLVertexDescriptor", "MTLStageInputOutputDescriptor", "MTLArgument", "MTLBlitCommandEncoder", "block2"] }
+objc2-metal-kit = { version = "=0.3.2", default-features = false, features = ["std", "MTKView", "objc2-app-kit", "objc2-core-foundation", "objc2-quartz-core"] }
+objc2-quartz-core = { version = "=0.3.2", default-features = false, features = ["std", "CALayer", "CAMetalLayer", "objc2-metal", "objc2-core-graphics"] }
+objc2-av-foundation = { version = "=0.3.2", default-features = false, features = ["std", "AVPlayer", "AVAssetReader", "AVAssetReaderOutput", "AVAssetWriter", "AVAssetWriterInput", "AVVideoSettings", "AVPlayerItem", "AVPlayerItemOutput", "AVAssetTrack", "objc2-core-video", "AVPlayerLayer", "AVPlayerLooper", "AVAnimation", "AVAsset", "AVAsynchronousKeyValueLoading", "AVMediaFormat", "block2", "objc2-quartz-core", "objc2-core-media"] }
+objc2-web-kit = { version = "=0.3.2", default-features = false, features = ["std", "WKWebView", "WKWebViewConfiguration", "WKUserContentController", "WKUserScript", "WKNavigation", "WKNavigationAction", "WKNavigationDelegate", "WKScriptMessage", "WKScriptMessageHandler", "WKFrameInfo", "WKPreferences", "WKWebsiteDataStore", "objc2-core-foundation", "objc2-app-kit", "block2"] }
+objc2-core-graphics = { version = "=0.3.2", default-features = false, features = ["std", "CGColorSpace", "CGWindowLevel", "CGWindow", "CGDirectDisplay", "CGDisplayConfiguration"] }
+
+objc2-screen-capture-kit = { version = "=0.3.2", default-features = false, features = ["std", "SCStream", "SCShareableContent", "objc2-core-foundation", "libc", "block2", "dispatch2", "objc2-core-media", "objc2-core-graphics"] }
+dispatch2 = { version = "=0.3.1", features = ["objc2"] }
+objc2-core-media = { version = "=0.3.2", default-features = false, features = ["std", "CMSampleBuffer", "CMBlockBuffer", "CMFormatDescription", "CMTime", "objc2-core-audio-types", "objc2-core-video"] }
+objc2-core-audio-types = { version = "=0.3.2", default-features = false, features = ["std", "CoreAudioBaseTypes"] }
+objc2-core-foundation = { version = "=0.3.2", default-features = false, features = ["std", "CFBase", "CFData", "CFArray", "CFDictionary", "CFNumber", "CFString", "CFUUID"] }
+
+objc2-core-video = { version = "=0.3.2", default-features = false, features = ["std", "CVBase", "CVReturn", "CVBuffer", "CVImageBuffer", "CVPixelBuffer"] }

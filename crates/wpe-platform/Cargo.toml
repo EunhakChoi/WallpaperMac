@@ -1,0 +1,14 @@
+[package]
+name = "wpe-platform"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+image.workspace = true
+libc = "=0.2.191"
+wpe-formats.workspace = true
+
+symphonia = { version = "=0.6.1", default-features = false, features = ["all-codecs", "all-formats", "all-meta"] }

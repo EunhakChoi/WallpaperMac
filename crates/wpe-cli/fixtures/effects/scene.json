@@ -1,0 +1,1 @@
+{"general":{"orthogonalprojection":{"width":960,"height":540},"clearcolor":"0.02 0.03 0.06"},"objects":[{"id":1,"name":"Original generated gradient","image":"models/demo.gradient.json","origin":"480 270 0","scale":"4 4 1","effects":[{"file":"effects/owned.json","passes":[{"constantshadervalues":{"amount":0.025,"speed":1.2}}]}]}]}

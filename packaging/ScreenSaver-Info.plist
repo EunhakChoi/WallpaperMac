@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.wallpapermac.screensaver</string>
+	<key>CFBundleName</key>
+	<string>WallpaperMac</string>
+	<key>CFBundleDisplayName</key>
+	<string>WallpaperMac</string>
+	<key>CFBundleExecutable</key>
+	<string>wallpaper_screensaver</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.1</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>WallpaperMacScreenSaver</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.2</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Read system audio for wallpaper audio reactions when you enable audio input.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use your selected microphone for wallpaper audio reactions when you enable microphone input.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Read playback state, track information and position from Music or Spotify only when you enable the corresponding media source.</string>
+</dict>
+</plist>

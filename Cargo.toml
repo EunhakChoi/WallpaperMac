@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.2.1"
+edition = "2024"
+rust-version = "1.91"
+
+[workspace.dependencies]
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.154"
+image = { version = "=0.25.10", default-features = false, features = ["png", "jpeg", "gif", "webp", "bmp", "tiff", "tga", "ico"] }
+lz4_flex = "=0.14.0"
+bcdec_rs = "=0.2.1"
+half = "=2.7.1"
+fbx-dom = "=0.1.2"
+fbxscii = "=0.1.2"
+naga = { version = "=27.0.0", default-features = false, features = ["glsl-in", "msl-out", "wgsl-in"] }
+fontdue = "=0.9.3"
+rustybuzz = "=0.20.1"
+pp-rs = "=0.2.1"
+unicode-bidi = "=0.3.18"
+unicode-linebreak = "=0.1.5"
+wpe-formats = { path = "crates/wpe-formats" }
+wpe-core = { path = "crates/wpe-core" }
+wpe-render = { path = "crates/wpe-render" }
+wpe-sim = { path = "crates/wpe-sim" }
+wpe-script = { path = "crates/wpe-script" }
+wpe-editor = { path = "crates/wpe-editor" }
+wpe-platform = { path = "crates/wpe-platform" }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"

@@ -1,0 +1,15 @@
+{
+  "classification": "owned-generated-media-no-original-assets",
+  "path": "crates/wpe-cli/fixtures/video/owned.mp4",
+  "bytes": 53979,
+  "sha256": "a35e503952801c7f03b66912de1b375f692e29de939b8d21854e8cc4c72f546f",
+  "generator": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "inputs": [
+    "lavfi:testsrc2=size=320x180:rate=24",
+    "lavfi:sine=frequency=440:sample_rate=44100"
+  ],
+  "duration_seconds": 2,
+  "video": "H.264 yuv420p 320x180 24fps",
+  "audio": "AAC mono44100Hz tone440Hz",
+  "original_engine_or_content_executed": false
+}

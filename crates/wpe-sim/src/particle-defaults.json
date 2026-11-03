@@ -1,0 +1,1305 @@
+{
+  "sphererandom": {
+    "rate": {
+      "value": 10.0
+    },
+    "duration": {
+      "value": 0.0
+    },
+    "delay": {
+      "value": 0.0
+    },
+    "instantaneous": {
+      "value": 0
+    },
+    "minperiodicduration": {
+      "value": 2.0
+    },
+    "maxperiodicduration": {
+      "value": 3.0
+    },
+    "minperiodicdelay": {
+      "value": 1.0
+    },
+    "maxperiodicdelay": {
+      "value": 2.0
+    },
+    "maxtoemitperperiod": {
+      "value": 0
+    },
+    "flags": {
+      "value": 0
+    },
+    "origin": {
+      "value": "0 0 0"
+    },
+    "directions": {
+      "value": "1 1 0"
+    },
+    "sign": {
+      "value": "0 0 0"
+    },
+    "distancemin": {
+      "value": 0.0
+    },
+    "distancemax": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 256.0
+    },
+    "speedmin": {
+      "value": 0.0
+    },
+    "speedmax": {
+      "value": 0.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "cone": {
+      "value": 0.0
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    }
+  },
+  "boxrandom": {
+    "rate": {
+      "value": 10.0
+    },
+    "duration": {
+      "value": 0.0
+    },
+    "delay": {
+      "value": 0.0
+    },
+    "instantaneous": {
+      "value": 0
+    },
+    "minperiodicduration": {
+      "value": 2.0
+    },
+    "maxperiodicduration": {
+      "value": 3.0
+    },
+    "minperiodicdelay": {
+      "value": 1.0
+    },
+    "maxperiodicdelay": {
+      "value": 2.0
+    },
+    "maxtoemitperperiod": {
+      "value": 0
+    },
+    "flags": {
+      "value": 0
+    },
+    "origin": {
+      "value": "0 0 0"
+    },
+    "directions": {
+      "mode_zero": "1 1 1",
+      "mode_nonzero": "1 1 0"
+    },
+    "distancemin": {
+      "value": "0 0 0"
+    },
+    "distancemax": {
+      "mode_zero": "1 1 1",
+      "mode_nonzero": "256 256 0"
+    },
+    "speedmin": {
+      "value": 0.0
+    },
+    "speedmax": {
+      "value": 0.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    }
+  },
+  "layerimage": {
+    "rate": {
+      "value": 10.0
+    },
+    "duration": {
+      "value": 0.0
+    },
+    "delay": {
+      "value": 0.0
+    },
+    "instantaneous": {
+      "value": 0
+    },
+    "minperiodicduration": {
+      "value": 2.0
+    },
+    "maxperiodicduration": {
+      "value": 3.0
+    },
+    "minperiodicdelay": {
+      "value": 1.0
+    },
+    "maxperiodicdelay": {
+      "value": 2.0
+    },
+    "maxtoemitperperiod": {
+      "value": 0
+    },
+    "flags": {
+      "value": 65536
+    },
+    "speedmin": {
+      "value": 0.10000000149011612
+    },
+    "speedmax": {
+      "value": 0.20000000298023224
+    },
+    "offsetmin": {
+      "mode_zero": "0 0 0",
+      "mode_nonzero": "-5 -5 0"
+    },
+    "offsetmax": {
+      "mode_zero": "0 0 0",
+      "mode_nonzero": "5 5 0"
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    }
+  },
+  "lifetimerandom": {
+    "min": {
+      "value": 0.0
+    },
+    "max": {
+      "value": 1.0
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "sizerandom": {
+    "min": {
+      "mode_zero": 0.0010000000474974513,
+      "mode_nonzero": 5.0
+    },
+    "max": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 50.0
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "colorrandom": {
+    "min": {
+      "value": "0 0 0"
+    },
+    "max": {
+      "value": "255 255 255"
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "hsvcolorrandom": {
+    "huemin": {
+      "value": 0.0
+    },
+    "huemax": {
+      "value": 1.0
+    },
+    "huesteps": {
+      "value": 6
+    },
+    "saturationmin": {
+      "value": 0.5
+    },
+    "saturationmax": {
+      "value": 1.0
+    },
+    "valuemin": {
+      "value": 0.5
+    },
+    "valuemax": {
+      "value": 1.0
+    }
+  },
+  "colorlist": {
+    "colors": {
+      "value": [
+        "1 1 1"
+      ]
+    },
+    "huenoise": {
+      "value": 0.0
+    },
+    "saturationnoise": {
+      "value": 0.0
+    },
+    "valuenoise": {
+      "value": 0.0
+    }
+  },
+  "alpharandom": {
+    "min": {
+      "value": 0.05000000074505806
+    },
+    "max": {
+      "value": 1.0
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "velocityrandom": {
+    "min": {
+      "mode_zero": "-1 -1 -1",
+      "mode_nonzero": "-32 -32 0"
+    },
+    "max": {
+      "mode_zero": "1 1 1",
+      "mode_nonzero": "32 32 0"
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "inheritcontrolpointvelocity": {
+    "min": {
+      "value": 0.10000000149011612
+    },
+    "max": {
+      "value": 0.20000000298023224
+    },
+    "controlpoint": {
+      "value": 0
+    }
+  },
+  "turbulentvelocityrandom": {
+    "speedmin": {
+      "mode_zero": 0.5,
+      "mode_nonzero": 100.0
+    },
+    "speedmax": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 250.0
+    },
+    "phasemin": {
+      "value": 0.0
+    },
+    "phasemax": {
+      "value": 0.10000000149011612
+    },
+    "timescale": {
+      "value": 1.0
+    },
+    "scale": {
+      "value": 1.0
+    },
+    "offset": {
+      "value": 0.0
+    },
+    "forward": {
+      "value": "0 1 0"
+    },
+    "right": {
+      "value": "0 0 1"
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    }
+  },
+  "rotationrandom": {
+    "min": {
+      "value": "0 0 0"
+    },
+    "max": {
+      "value": "0 0 6.28318530717"
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "positionoffsetrandom": {
+    "directions": {
+      "mode_zero": "1 1 1",
+      "mode_nonzero": "1 1 0"
+    },
+    "sign": {
+      "value": "0 0 0"
+    },
+    "scale": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 0.0010000000474974513
+    },
+    "distance": {
+      "mode_zero": 0.10000000149011612,
+      "mode_nonzero": 100.0
+    },
+    "timescale": {
+      "value": 1.0
+    },
+    "octaves": {
+      "value": 6
+    }
+  },
+  "angularvelocityrandom": {
+    "min": {
+      "value": "0 0 -5"
+    },
+    "max": {
+      "value": "0 0 5"
+    },
+    "exponent": {
+      "value": 1.0
+    }
+  },
+  "mapsequencearoundcontrolpoint": {
+    "count": {
+      "value": 32
+    },
+    "bounds": {
+      "value": "0 1"
+    },
+    "speedmin": {
+      "value": "0 0 0"
+    },
+    "speedmax": {
+      "value": "0 0 0"
+    },
+    "axis": {
+      "value": "0 0 1"
+    },
+    "limitbehavior": {
+      "value": "repeat"
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "flags": {
+      "value": 0
+    }
+  },
+  "mapsequencebetweencontrolpoints": {
+    "count": {
+      "value": 32
+    },
+    "bounds": {
+      "value": "0 1"
+    },
+    "limitbehavior": {
+      "value": "repeat"
+    },
+    "controlpointstart": {
+      "value": 0
+    },
+    "controlpointend": {
+      "value": 1
+    },
+    "flags": {
+      "value": 0
+    },
+    "arcamount": {
+      "value": 0.30000001192092896
+    },
+    "arcdirection": {
+      "value": "0 1 0"
+    },
+    "sizereductionamount": {
+      "value": 0.8999999761581421
+    }
+  },
+  "remapinitialvalue": {
+    "operation": {
+      "value": "multiply"
+    },
+    "input": {
+      "value": "maxlifetime"
+    },
+    "output": {
+      "value": "size"
+    },
+    "inputcomponent": {
+      "value": "all"
+    },
+    "outputcomponent": {
+      "value": "all"
+    },
+    "inputrangemin": {
+      "value": 0
+    },
+    "inputrangemax": {
+      "value": 1
+    },
+    "outputrangemin": {
+      "value": 0
+    },
+    "outputrangemax": {
+      "value": 1
+    },
+    "inputcontrolpoint0": {
+      "value": 0
+    },
+    "inputcontrolpoint1": {
+      "value": 1
+    },
+    "outputcontrolpoint0": {
+      "value": 0
+    },
+    "outputcontrolpoint1": {
+      "value": 1
+    },
+    "transformfunction": {
+      "value": "none"
+    },
+    "transforminputscale": {
+      "value": 2.0
+    },
+    "transformoctaves": {
+      "value": 3
+    },
+    "flags": {
+      "value": 1
+    }
+  },
+  "inheritinitialvaluefromevent": {
+    "input": {
+      "value": "setcolor"
+    }
+  },
+  "movement": {
+    "gravity": {
+      "value": "0 0 0"
+    },
+    "drag": {
+      "value": 0.0
+    },
+    "flags": {
+      "value": 0
+    }
+  },
+  "angularmovement": {
+    "force": {
+      "value": "0 0 0"
+    },
+    "drag": {
+      "value": 0.0
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "alphafade": {
+    "fadeintime": {
+      "value": 0.5
+    },
+    "fadeouttime": {
+      "value": 0.5
+    }
+  },
+  "sizechange": {
+    "startvalue": {
+      "value": 1.0
+    },
+    "endvalue": {
+      "value": 0.0
+    },
+    "starttime": {
+      "value": 0.0
+    },
+    "endtime": {
+      "value": 1.0
+    }
+  },
+  "colorchange": {
+    "startvalue": {
+      "value": "1 1 1"
+    },
+    "endvalue": {
+      "value": "0 0 0"
+    },
+    "starttime": {
+      "value": 0.0
+    },
+    "endtime": {
+      "value": 1.0
+    }
+  },
+  "alphachange": {
+    "startvalue": {
+      "value": 1.0
+    },
+    "endvalue": {
+      "value": 0.0
+    },
+    "starttime": {
+      "value": 0.0
+    },
+    "endtime": {
+      "value": 1.0
+    }
+  },
+  "oscillateposition": {
+    "mask": {
+      "value": "1 1 0"
+    },
+    "frequencymin": {
+      "value": 1.0
+    },
+    "frequencymax": {
+      "value": 5.0
+    },
+    "scalemin": {
+      "value": 0.0
+    },
+    "scalemax": {
+      "mode_zero": 0.5,
+      "mode_nonzero": 10.0
+    },
+    "phasemin": {
+      "value": 0.0
+    },
+    "phasemax": {
+      "value": 6.2831854820251465
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "oscillatealpha": {
+    "frequencymin": {
+      "value": 1.0
+    },
+    "frequencymax": {
+      "value": 10.0
+    },
+    "scalemin": {
+      "value": 0.0
+    },
+    "scalemax": {
+      "value": 1.0
+    },
+    "phasemin": {
+      "value": 0.0
+    },
+    "phasemax": {
+      "value": 6.2831854820251465
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "oscillatesize": {
+    "frequencymin": {
+      "value": 1.0
+    },
+    "frequencymax": {
+      "value": 10.0
+    },
+    "scalemin": {
+      "value": 0.800000011920929
+    },
+    "scalemax": {
+      "value": 1.2000000476837158
+    },
+    "phasemin": {
+      "value": 0.0
+    },
+    "phasemax": {
+      "value": 6.2831854820251465
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "controlpointattract": {
+    "offset": {
+      "value": "0 0 0"
+    },
+    "scale": {
+      "mode_zero": 20.0,
+      "mode_nonzero": 512.0
+    },
+    "threshold": {
+      "mode_zero": 5.0,
+      "mode_nonzero": 512.0
+    },
+    "deletethreshold": {
+      "mode_zero": 0.5,
+      "mode_nonzero": 15.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "flags": {
+      "value": 2
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "maintaindistancetocontrolpoint": {
+    "distance": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 200.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "variablestrength": {
+      "value": 0
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "maintaindistancebetweencontrolpoints": {
+    "controlpointstart": {
+      "value": 0
+    },
+    "controlpointend": {
+      "value": 1
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "reducemovementnearcontrolpoint": {
+    "controlpoint": {
+      "value": 0
+    },
+    "distanceinner": {
+      "mode_zero": 0.5,
+      "mode_nonzero": 100.0
+    },
+    "distanceouter": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 350.0
+    },
+    "reductioninner": {
+      "value": 100.0
+    },
+    "reductionouter": {
+      "value": 0.0
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "turbulence": {
+    "timescale": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 20.0
+    },
+    "mask": {
+      "mode_zero": "1 1 1",
+      "mode_nonzero": "1 1 0"
+    },
+    "scale": {
+      "mode_zero": 0.5,
+      "mode_nonzero": 0.009999999776482582
+    },
+    "speedmin": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 500.0
+    },
+    "speedmax": {
+      "mode_zero": 5.0,
+      "mode_nonzero": 1000.0
+    },
+    "phasemin": {
+      "value": 0.0
+    },
+    "phasemax": {
+      "value": 0.0
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "vortex": {
+    "offset": {
+      "value": "0 0 0"
+    },
+    "axis": {
+      "value": "0 0 1"
+    },
+    "distanceinner": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 500.0
+    },
+    "distanceouter": {
+      "mode_zero": 2.0,
+      "mode_nonzero": 650.0
+    },
+    "speedinner": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 2500.0
+    },
+    "speedouter": {
+      "value": 0.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "flags": {
+      "value": 0
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    }
+  },
+  "vortex_v2": {
+    "axis": {
+      "value": "0 0 1"
+    },
+    "distanceinner": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 500.0
+    },
+    "distanceouter": {
+      "mode_zero": 2.0,
+      "mode_nonzero": 650.0
+    },
+    "speedinner": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 2500.0
+    },
+    "speedouter": {
+      "value": 0.0
+    },
+    "centerforce": {
+      "value": 1.0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "flags": {
+      "value": 0
+    },
+    "ringwidth": {
+      "mode_zero": 0.20000000298023224,
+      "mode_nonzero": 50.0
+    },
+    "audioprocessingmode": {
+      "value": 0
+    },
+    "audioprocessingexponent": {
+      "value": 2.0
+    },
+    "audioprocessingbounds": {
+      "value": "0.8 1.0"
+    },
+    "audioprocessingfrequencystart": {
+      "value": 0
+    },
+    "audioprocessingfrequencyend": {
+      "value": 1
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    },
+    "ringradius": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 300.0
+    },
+    "ringpulldistance": {
+      "mode_zero": 0.25,
+      "mode_nonzero": 50.0
+    },
+    "ringpullforce": {
+      "mode_zero": 0.05000000074505806,
+      "mode_nonzero": 10.0
+    }
+  },
+  "boids": {
+    "separationthreshold": {
+      "mode_zero": 0.019999999552965164,
+      "mode_nonzero": 20.0
+    },
+    "neighborthreshold": {
+      "mode_zero": 0.20000000298023224,
+      "mode_nonzero": 50.0
+    },
+    "maxspeed": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 500.0
+    },
+    "separationfactor": {
+      "value": 15.0
+    },
+    "alignmentfactor": {
+      "value": 1.0
+    },
+    "cohesionfactor": {
+      "value": 2.0
+    },
+    "flags": {
+      "value": 1
+    }
+  },
+  "capvelocity": {
+    "maxspeed": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 100.0
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "remapvalue": {
+    "operation": {
+      "value": "multiply"
+    },
+    "input": {
+      "value": "lifetimefraction"
+    },
+    "output": {
+      "value": "size"
+    },
+    "inputcomponent": {
+      "value": "all"
+    },
+    "outputcomponent": {
+      "value": "all"
+    },
+    "inputrangemin": {
+      "value": 0
+    },
+    "inputrangemax": {
+      "value": 1
+    },
+    "outputrangemin": {
+      "value": 0
+    },
+    "outputrangemax": {
+      "value": 1
+    },
+    "inputcontrolpoint0": {
+      "value": 0
+    },
+    "inputcontrolpoint1": {
+      "value": 1
+    },
+    "outputcontrolpoint0": {
+      "value": 0
+    },
+    "outputcontrolpoint1": {
+      "value": 1
+    },
+    "transformfunction": {
+      "value": "none"
+    },
+    "transforminputscale": {
+      "value": 2.0
+    },
+    "transformoctaves": {
+      "value": 3
+    },
+    "flags": {
+      "value": 1
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "inheritvaluefromevent": {
+    "input": {
+      "value": "setcoloropacity"
+    },
+    "blendinstart": {
+      "value": 0.0
+    },
+    "blendinend": {
+      "value": 0.0
+    },
+    "blendoutstart": {
+      "value": 1.0
+    },
+    "blendoutend": {
+      "value": 1.0
+    }
+  },
+  "collisionplane": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "plane": {
+      "value": "0 1 0"
+    },
+    "distance": {
+      "mode_zero": 0.0,
+      "mode_nonzero": -150.0
+    }
+  },
+  "collisionsphere": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "origin": {
+      "mode_zero": "0 0 0",
+      "mode_nonzero": "0 -200 0"
+    },
+    "radius": {
+      "mode_zero": 1.0,
+      "mode_nonzero": 50.0
+    }
+  },
+  "collisionbox": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    }
+  },
+  "collisionbounds": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    }
+  },
+  "collisionquad": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    },
+    "origin": {
+      "mode_zero": "0 0 0",
+      "mode_nonzero": "0 -150 0"
+    },
+    "plane": {
+      "value": "0 1 0"
+    },
+    "forward": {
+      "value": "0 0 1"
+    },
+    "size": {
+      "mode_zero": "1 1",
+      "mode_nonzero": "200 200"
+    }
+  },
+  "collisionmodel": {
+    "bouncefactor": {
+      "value": 0.5
+    },
+    "collisionbehavior": {
+      "value": "bounce"
+    },
+    "flags": {
+      "value": 0
+    },
+    "controlpoint": {
+      "value": 0
+    }
+  },
+  "sprite": {
+    "orientation": {
+      "value": "screen"
+    },
+    "axis": {
+      "value": "0 0 0"
+    },
+    "flags": {
+      "value": 0
+    }
+  },
+  "spritetrail": {
+    "length": {
+      "value": 0.05000000074505806
+    },
+    "maxlength": {
+      "value": 10.0
+    },
+    "orientation": {
+      "value": "screen"
+    },
+    "axis": {
+      "value": "0 0 0"
+    },
+    "flags": {
+      "value": 0
+    }
+  },
+  "rope": {
+    "subdivision": {
+      "value": 4
+    },
+    "uvsmoothing": {
+      "value": true
+    },
+    "uvscrolling": {
+      "value": false
+    },
+    "uvscale": {
+      "value": 1
+    },
+    "orientation": {
+      "value": "screen"
+    },
+    "axis": {
+      "value": "0 0 0"
+    },
+    "flags": {
+      "value": 0
+    }
+  },
+  "ropetrail": {
+    "length": {
+      "value": 1.0
+    },
+    "segments": {
+      "value": 4
+    },
+    "subdivision": {
+      "value": 1
+    },
+    "uvscrolling": {
+      "value": false
+    },
+    "uvscale": {
+      "value": 1
+    },
+    "fadealpha": {
+      "value": false
+    },
+    "fadesize": {
+      "value": false
+    },
+    "orientation": {
+      "value": "screen"
+    },
+    "axis": {
+      "value": "0 0 0"
+    },
+    "flags": {
+      "value": 0
+    }
+  }
+}

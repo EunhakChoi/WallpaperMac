@@ -1,0 +1,19 @@
+[package]
+name = "wpe-screensaver"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+[lib]
+name = "wallpaper_screensaver"
+crate-type = ["cdylib", "rlib"]
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+wpe-core.workspace = true
+wpe-platform.workspace = true
+wpe-macos = { path = "../wpe-macos" }
+[target.'cfg(target_os = "macos")'.dependencies]
+libc = "=0.2.191"
+objc2 = "=0.6.5"
+objc2-foundation = { version = "=0.3.2", default-features = false, features = ["std","NSArray","NSData","NSDate","NSError","NSGeometry","NSObject","NSString","NSURL"] }
+objc2-app-kit = { version = "=0.3.2", default-features = false, features = ["std","NSApplication","NSView","NSResponder","NSWindow","NSPanel","NSOpenPanel","NSSavePanel","NSButton","NSControl","NSCell","NSTextField","NSColor","NSGraphics"] }

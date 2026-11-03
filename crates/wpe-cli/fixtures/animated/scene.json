@@ -1,0 +1,9 @@
+{
+ "general":{"orthogonalprojection":{"width":960,"height":540},"clearcolor":"0.025 0.035 0.07","bloom":true,"bloomstrength":0.3,"bloomthreshold":0.85},
+ "objects":[
+  {"id":1,"name":"Moving gradient","image":"models/demo.gradient.json","origin":"480 270 0","scale":"4 4 1"},
+  {"id":2,"name":"Orbiting card — click to change color","image":"models/demo.card.json","origin":{"value":"480 270 0","script":"export function update(v){const t=engine.runtime*engine.userProperties.speed;return new Vec3(480+Math.cos(t)*120,270+Math.sin(t)*75,0);} export function cursorClick(){thisLayer.color=new Vec3(Math.random(),0.7,1);}"},"scale":"1.2 1.2 1","angles":{"value":"0 0 0","animation":{"c2":[{"frame":0,"value":-0.2},{"frame":60,"value":0.2}],"options":{"fps":30,"length":120,"mode":"mirror"}}}},
+  {"id":3,"name":"Deterministic particles","particle":"particles/owned.json","origin":"480 270 0","visible":{"value":true,"user":"particles"}},
+  {"id":4,"name":"Script-created triangle","visible":{"value":false,"script":"let shape;export function init(){let data=thisScene.createModelData({vertexFormat:[IModelData.POSITION,IModelData.COLOR],vertexBuffer:[-35,-25,0,0.2,0.8,1,1,35,-25,0,0.9,0.3,0.6,1,0,40,0,1,0.8,0.2,1],indexBuffer:[0,1,2]});shape=thisScene.createLayer(data);shape.origin=new Vec3(480,110,0);return false;}export function update(){shape.angles=new Vec3(0,0,engine.runtime*45);return false;}"}}
+ ]
+}

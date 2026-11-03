@@ -1,0 +1,12 @@
+[package]
+name = "wpe-editor"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+wpe-formats.workspace = true
+wpe-sim.workspace = true
+image.workspace = true

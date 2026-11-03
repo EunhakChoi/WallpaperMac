@@ -1,0 +1,16 @@
+[package]
+name = "wpe-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "wpe"
+path = "src/main.rs"
+
+[dependencies]
+wpe-formats.workspace = true
+wpe-core.workspace = true
+serde_json.workspace = true
+image.workspace = true
+wpe-render.workspace = true

@@ -1,0 +1,15 @@
+[package]
+name = "wpe-formats"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+fbx-dom.workspace = true
+fbxscii.workspace = true
+half.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+image.workspace = true
+lz4_flex.workspace = true
+bcdec_rs.workspace = true

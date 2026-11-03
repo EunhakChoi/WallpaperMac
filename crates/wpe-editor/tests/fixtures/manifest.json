@@ -1,0 +1,17 @@
+{
+  "classification": "entirely-owned-generated-fixtures",
+  "original_assets_read": false,
+  "generator": "make_model_fixtures.py",
+  "files": [
+    {
+      "path": "editable-triangle.mdl",
+      "bytes": 134,
+      "sha256": "c29561e4a1710edd35a622d6df6c1dd78db8360a4dda114b84811e2af1801cfc"
+    },
+    {
+      "path": "editable-skinned-triangle.mdl",
+      "bytes": 721,
+      "sha256": "155cdd9b45fb9b269a1c228bd6753f50217a4245854487ecc97f954cde351005"
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "created_utc": "2026-11-03T05:21:33.893940+00:00",
+  "version": "0.2.1",
+  "scope": "Actual Linux execution of the public source checkout; no external original-analysis data configured",
+  "passed": true,
+  "rust_toolchain": "1.91.1",
+  "source_digest_sha256": "51bf0bea421cd26b45681d341e7714469cc7c1045140c19c84b3561230531968",
+  "source_file_hashes": [
+    {
+      "path": ".cargo/config.toml",
+      "sha256": "f4fddf94011b4ba9a9a2b1fc9346c184085e1c686ee3dca8426daf6f68178dc7"
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "39bd683087bd88405278a386b53667f7e320779709a0fd1d78e49b2e2a82c1a4"
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "0dbc9f7d0c8f6a82a391b42897ae4ec830c29918b2ff87d53e175f68bac653e2"
+    },
+    {
+      "path": "crates/wpe-cli/Cargo.toml",
+      "sha256": "9b6371973415c285c57172a1a029629f20fe135338890b836c998706f0636aa1"
+    },
+    {
+      "path": "crates/wpe-cli/src/demo.html",
+      "sha256": "06388785ec7a257dc99d259beb485c36e1685687ee7e27c2cbbc1146a645260b"
+    },
+    {
+      "path": "crates/wpe-cli/src/main.rs",
+      "sha256": "ef55e29c18ea2d6dd6c973cd1ea7bbda245d7802bb2e5d9fbfa592aecdde9c69"
+    },
+    {
+      "path": "crates/wpe-cli/tests/analysis_fixtures.rs",
+      "sha256": "2c5d1b923d13d676be9f4f580ed3aed6308a0a79a040fe42dfd3cd4892b642a6"
+    },
+    {
+      "path": "crates/wpe-cli/tests/end_to_end.rs",
+      "sha256": "d65df30d4c9794b10d2a8f11d968058a9a9df9dc4e8738d2167ec1482ed55030"
+    },
+    {
+      "path": "crates/wpe-core/Cargo.toml",
+      "sha256": "5b9259dbba6fb08dba00ae13f8e444740268ae90b1b646544a846f3f64a9c505"
+    },
+    {
+      "path": "crates/wpe-core/src/error.rs",
+      "sha256": "773895793d38d647e6c5aef5a544d6af34a0774cd43b02b0920092e8572e9adb"
+    },
+    {
+      "path": "crates/wpe-core/src/lib.rs",
+      "sha256": "70bd79647d199d0cae6ab6fbd9d46bf8949f298ca427212d48106d17f41ea6a7"
+    },
+    {
+      "path": "crates/wpe-core/src/player/assets.rs",
+      "sha256": "33789d465f0c62f7431e0510ca932a687cebd2c731343c166dea42077b3527b2"
+    },
+    {
+      "path": "crates/wpe-core/src/player/camera_path.rs",
+      "sha256": "08dde2c83f779a8ef465ecfa2b277f522097b55870eaf30f215601b9139b5e27"
+    },
+    {
+      "path": "crates/wpe-core/src/player/draw.rs",
+      "sha256": "c97830ea10d21fe0d3249a87f1b27de54cb027fbdffedfd2916b31a6a550dc70"
+    },
+    {
+      "path": "crates/wpe-core/src/player/environment.rs",
+      "sha256": "35a88349ff4b4cfe0caabaf6a74723bffe5982ab8d54339fa7576092ca8931e1"
+    },
+    {
+      "path": "crates/wpe-core/src/player/host.rs",
+      "sha256": "0431659889ec2bd70de77aec2d2c1d53140df26f12b1ea480c4b92c6b9239e59"
+    },
+    {
+      "path": "crates/wpe-core/src/player/interaction.rs",
+      "sha256": "057bcfb16ad246e867d47415aa84bf85e3749897f2b98c0a67ab4c0d126e8575"
+    },
+    {
+      "path": "crates/wpe-core/src/player/lighting.rs",
+      "sha256": "3ee0a06864ea337ab92b9defbbb57c532f49edda2747167e9f6ad675c9db478b"
+    },
+    {
+      "path": "crates/wpe-core/src/player/puppet.rs",
+      "sha256": "6d384199e2bb2fef63415d9ac125a727abc6e8f0ce6582dc707848e9a390f0a3"
+    },
+    {
+      "path": "crates/wpe-core/src/player/reflection.rs",
+      "sha256": "b18432a4a20ca481ca209f4c1651ea925b2bc8eb90e896c92ce89fe244888568"
+    },
+    {
+      "path": "crates/wpe-core/src/player.rs",
+      "sha256": "9841ed790b0fea0a48bb17c1e07be2c5ec046c59d21ddc2ea7af30a131e2f3ad"
+    },
+    {
+      "path": "crates/wpe-core/src/project.rs",
+      "sha256": "918f7bd2760cdf402c7e3e9c0db6168e0c34e740ac300a523f1aba947c83b100"
+    },
+    {
+      "path": "crates/wpe-core/src/render.rs",
+      "sha256": "45764bf6e74d4cec4983ca8ad017e6734a9324a5a7da0164c95477ed715fa44e"
+    },
+    {
+      "path": "crates/wpe-core/src/runtime.rs",
+      "sha256": "0db16ea0bf11f82fb1a848f1ad088c85a6896b11239cfb77502134e942f85c4b"
+    },
+    {
+      "path": "crates/wpe-core/src/scene.rs",
+      "sha256": "328ae44aa98bddf2cdc17d8965bdfff737a7be68e735ee195b475749b224b3bc"
+    },
+    {
+      "path": "crates/wpe-core/src/vfs.rs",
+      "sha256": "c968031c4a54455eb1ba0f77bb5ee731d1f3f5d2484c3075e4475c6fbbb4553d"
+    },
+    {
+      "path": "crates/wpe-core/tests/portable_pipeline.rs",
+      "sha256": "a9634b9e90076756c6f00b15143a528c5c84f6f584dbe5223ccee4cf74fe9f55"
+    },
+    {
+      "path": "crates/wpe-core/tests/scene_player.rs",
+      "sha256": "8a7349af43c443e62f1e8e1b1499766288a9df217cd2180eba64207404ba81c2"
+    },
+    {
+      "path": "crates/wpe-editor/Cargo.toml",
+      "sha256": "757aee0c7e971e650bca020db0696e09e576ae562ca68967cfa6a014a22f45f9"
+    },
+    {
+      "path": "crates/wpe-editor/src/actions.rs",
+      "sha256": "519118925dd2270edde08e9054eb0b8e6e566a5be2dd9d5fd426e78ee6f808ca"
+    },
+    {
+      "path": "crates/wpe-editor/src/commands.rs",
+      "sha256": "4f7c07cf6e9da6fcf1eb21bee206e6f7156a8648f9998d44192cc7c750100925"
+    },
+    {
+      "path": "crates/wpe-editor/src/geometry.rs",
+      "sha256": "e0af71947095722109d308604a1df01a829d8e9ae9abf671c68644794f7618f5"
+    },
+    {
+      "path": "crates/wpe-editor/src/image_tools.rs",
+      "sha256": "0ce94ce30fbbfa09ae8bc0f92e13dad7932baa3a82f55dcadef15bceb322ae08"
+    },
+    {
+      "path": "crates/wpe-editor/src/lib.rs",
+      "sha256": "acf4a0f6173549596d952323a6fab1ab6eeb46ea7f47de624d1f95c2d8af039f"
+    },
+    {
+      "path": "crates/wpe-editor/src/model_tools.rs",
+      "sha256": "8e6195bc9d94f354eeaa570a9a2d5a6b849668e43e3c208364b6c45c11e33c68"
+    },
+    {
+      "path": "crates/wpe-editor/src/resources.rs",
+      "sha256": "cd3e218067b89852c7c3e5696dafade1b62e924a355954b05c97b8a6f4a24a7d"
+    },
+    {
+      "path": "crates/wpe-editor/src/surface.rs",
+      "sha256": "a8cf258d06b155f866c0290b9eea79ca0975fe499075948b656df56515f0ab61"
+    },
+    {
+      "path": "crates/wpe-editor/tests/service.rs",
+      "sha256": "a9df0b7d568d3532fd9e710bc290d90a1eee0cc959273806bd3d08ce12e34665"
+    },
+    {
+      "path": "crates/wpe-editor/tools/make_model_fixtures.py",
+      "sha256": "e3a922c300abb1223941855074e6cc655717f5fe5c1ab8008a107bb9cf611136"
+    },
+    {
+      "path": "crates/wpe-formats/Cargo.toml",
+      "sha256": "1b2c1e23f946f37119e88e6de6b36fa6eb49c9d87826bf676084a00cbe562fc9"
+    },
+    {
+      "path": "crates/wpe-formats/examples/decode_fbx.rs",
+      "sha256": "839e6679a6fa9c5e433f05b9f79e28e7c80540b4804c14e82129d4d7d25f3a17"
+    },
+    {
+      "path": "crates/wpe-formats/examples/decode_texture.rs",
+      "sha256": "801ab3daa44787b6797b305162e3262dc49eb460d13a0233763f548d7f981274"
+    },
+    {
+      "path": "crates/wpe-formats/examples/fbx_inspect.rs",
+      "sha256": "f99a36a05d1c78a9319e7f7540554f9a208717e7ea5bc038915e5c1a559dfd3e"
+    },
+    {
+      "path": "crates/wpe-formats/examples/validate_corpus.rs",
+      "sha256": "90b4f334299d677107bbc6aee6c8fc7665462d3bf586fb13aa6303869cebb386"
+    },
+    {
+      "path": "crates/wpe-formats/src/fbx/dom.rs",
+      "sha256": "1fd2f8bb3237bde8129176693b411cfc6d725f4e8dfd73da54b65273009bd4f9"
+    },
+    {
+      "path": "crates/wpe-formats/src/fbx/limits.rs",
+      "sha256": "9f2ca7fd08a79df3e8b940254a582a341806841bec10915a62a01f86e929fb33"
+    },
+    {
+      "path": "crates/wpe-formats/src/fbx/math.rs",
+      "sha256": "6147307386d20d297de3a87c4ff93d9d9587b010b095f450a7d05fffa59b2210"
+    },
+    {
+      "path": "crates/wpe-formats/src/fbx.rs",
+      "sha256": "a2ee4369094d5a735a319d7873717ba362bcc92921812a5f46b30be436a342b0"
+    },
+    {
+      "path": "crates/wpe-formats/src/jsonc.rs",
+      "sha256": "b588921d7dec8232db4b0edfc3386c10b78a69070fe8f0d68ecc8ac108500767"
+    },
+    {
+      "path": "crates/wpe-formats/src/lib.rs",
+      "sha256": "c7d42fdd15cdbba01d1fc0eaa86a77e1c766f44539054c9752285c4bf4b04769"
+    },
+    {
+      "path": "crates/wpe-formats/src/mdl.rs",
+      "sha256": "43479df9601ce7c9b6f857d8d376dcf4bbbf69508c256953dab8b3994a52fb6d"
+    },
+    {
+      "path": "crates/wpe-formats/src/pkg.rs",
+      "sha256": "bfd5d0cc13dbb8a3bad4a15170ae0df54f92994c8b4e16ed03dd3b9cccc15a75"
+    },
+    {
+      "path": "crates/wpe-formats/src/reader.rs",
+      "sha256": "1e7d84f00ee16e78c0618ada0f4630377b70baff4728431031f0cab60c64ac5a"
+    },
+    {
+      "path": "crates/wpe-formats/src/tex.rs",
+      "sha256": "6b75cdc8e647ecaf69b879d4036b23c1c5dfa826b3c0589050df08126ec62d00"
+    },
+    {
+      "path": "crates/wpe-formats/tests/fbx_import.rs",
+      "sha256": "0c955f9f206c377413fac9021dd40e19a09291f514549daa71f0278db6aad1ac"
+    },
+    {
+      "path": "crates/wpe-formats/tests/original_writers.rs",
+      "sha256": "77e7010de1b7007c5967e3440deebb17eead8cefee9a2bbf473e9fc93e88bf5d"
+    },
+    {
+      "path": "crates/wpe-formats/tools/make_fbx_fixtures.py",
+      "sha256": "b382f9cc644207636a5ada5e10af811519a67d3bc37ccf31538ccae808bfafb5"
+    },
+    {
+      "path": "crates/wpe-macos/Cargo.toml",
+      "sha256": "56deb069b98bf30d418fdf0a3d7f738890e808c861c1dad28ab739f4fdfd5d6e"
+    },
+    {
+      "path": "crates/wpe-macos/examples/metal_smoke.rs",
+      "sha256": "022aa1cad5c68e610d823dd48fa0b42f59a1994858ae06f1c54e2b17f3dbe6be"
+    },
+    {
+      "path": "crates/wpe-macos/src/editor_requests.rs",
+      "sha256": "aae22989b1c7217a086e2b2a68b96acb1d093833ae6422768f4d97633a9418d0"
+    },
+    {
+      "path": "crates/wpe-macos/src/lib.rs",
+      "sha256": "b4fe67bba5f8fce540d4d1f0c82253627a93763cc10b504529b0c1e97b5d92e3"
+    },
+    {
+      "path": "crates/wpe-macos/src/main.rs",
+      "sha256": "f3d9979d8d9da53d566d4f5217403b3b9b9c3f0671cb8748723da397fe8bc3ff"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/application.rs",
+      "sha256": "bf2e55751bb9f2796d2d6de4393dfb02a13c4adedcf195d2a0c6e39f4a6c10b6"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/audio.rs",
+      "sha256": "80a1a31f073db6c064d192c64fc6b2b97d5d71aaff89819a3d33c3b06fb80dbf"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/control.rs",
+      "sha256": "ff40a13c9b56b957b5fcfc3236a3acbe3981d58a49aceaee10adf40d7c8a5949"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/editor_host.rs",
+      "sha256": "1dc6a43cb4cb858fd40d13d69f0a47209d8b8f90f1ab576a91d5f164717ceb56"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/editor_services.rs",
+      "sha256": "4adcaa70c3aad0463e8e038e6a4cc94402f83a8a69b02270bfbf0739f06f9ca7"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/embedded.rs",
+      "sha256": "caa64550b9b3e1c815f0afa0c84ba90e1bd1abde5425517d90fd087756fcaeaa"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/export.rs",
+      "sha256": "4e80187f2570b2dc047f277f4ed0936f2bd8bb7fdae1e4bce118c1b6661906fd"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/export_video.rs",
+      "sha256": "fc433afb63a83178d1414a88ad810b5c0e2994b89046c8bf583696c2e75ad4d7"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/facts.rs",
+      "sha256": "67593954b93a5e11a2c7e6ce541c3107d964709c01d1481b11b14a9259a8bd7d"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/login.rs",
+      "sha256": "01fdfaf1516b1f9a308ec73d7dbfff8101d78ab9f904fd9f4256959fd9de07be"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/management.html",
+      "sha256": "0e0b3ed0b57e7d32702df548e42d7f6d2930ce48c80eb7223a1bdca0afa54b74"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/media.rs",
+      "sha256": "e9c460f322ab099d7ce237331a28c5136e7817b6f15da6e11fcac9f547673974"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/metal/offscreen.rs",
+      "sha256": "565c0a26d89215a8dfccd37e9d2c77c4e2f65148cd4368b20f0402ba20c480ec"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/metal/smoke.rs",
+      "sha256": "5f4bfea77c20a1b361054055042a8aa3cee8f65d81a8a0758049c225331433ee"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/metal.rs",
+      "sha256": "7e065637ffd43d9e1e51eab32e5560f5fe2d40e4f029a35ca094c442960f62e1"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/mod.rs",
+      "sha256": "cf2159308d10d3b6ed86d40a8b3a42d8215cde48e91eda39d876065be89c3872"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/now_playing.rs",
+      "sha256": "2f85560d1d644ed42badd44a68e1c5db06692a9a16db9aa4d55869c0f37197ef"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/scene.rs",
+      "sha256": "4418b70903802bbdf3b5e3530b040740bab75470c754fe3a2d786b799e1b93e2"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/sound.rs",
+      "sha256": "4cd2a4b03d474072703c3204216e8f2395808bb7636675eb3d16f3ecfda6fd73"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/steam.rs",
+      "sha256": "aa4e03428dcaa52a90825eaafef0648dab53929768ac246188b06bc48b367f76"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/text.rs",
+      "sha256": "13b79673cf79a638d39d9535dd7709da0b416d59fb1587b4f12a2bd6a77c3feb"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/video_texture.rs",
+      "sha256": "fe99be4dcb11b0e4649c5b0e22a54c7f0ee00298195be0b2f0edf2e030f20dfc"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/web_bridge.js",
+      "sha256": "1cb997393e9382a884e9041239adb6c28040231b55b5ee7220452ccfc81f2325"
+    },
+    {
+      "path": "crates/wpe-macos/src/native/workshop.rs",
+      "sha256": "c279e2c7f4b82ea3aad6ce7d905ec8b1987ad6834e98f0b93a833312a131db8b"
+    },
+    {
+      "path": "crates/wpe-macos/src/render_graph.rs",
+      "sha256": "5c1fb9ca9f2f0c8d587ca934f2174a04a070df7b1b27e5796c97656b5e89f358"
+    },
+    {
+      "path": "crates/wpe-macos/tests/web_bridge.cjs",
+      "sha256": "2a34c13ffd4cd2ecb6f4f5fad08427b75feb281a2d707091adab84d88da6b2df"
+    },
+    {
+      "path": "crates/wpe-macos/tools/check-management.cjs",
+      "sha256": "fbda392b8144ae7e3e0bc4009cb04f885f4b4bede6d8c834847be29723dee71a"
+    },
+    {
+      "path": "crates/wpe-platform/Cargo.toml",
+      "sha256": "d6eee908a0cea08df51b40a2a627aa9805fa479d4350a206d91fa8bc41141e61"
+    },
+    {
+      "path": "crates/wpe-platform/examples/audio_decode_check.rs",
+      "sha256": "2998a9afd256ab658aa34e77a9e222db652a1198edf3a72fa64a63c0e569be73"
+    },
+    {
+      "path": "crates/wpe-platform/examples/export_check.rs",
+      "sha256": "eda02b03d6f98f8c7967c0435f400f467c8e8ef30edb53733c53e0f3c0fdaaf5"
+    },
+    {
+      "path": "crates/wpe-platform/src/application.rs",
+      "sha256": "c53098318aa0d2d3ef1f2f331798efad7cf7e0678a941534558ad77b8362ab3e"
+    },
+    {
+      "path": "crates/wpe-platform/src/audio.rs",
+      "sha256": "377166004df199f575e86496912ca2095b8ede6a73d3e581cdb9a8604edcc5b4"
+    },
+    {
+      "path": "crates/wpe-platform/src/config.rs",
+      "sha256": "157e15e4eb0152b3b4d76bdc1e1aa27169690b5013cefc9f299ddedb4c04660b"
+    },
+    {
+      "path": "crates/wpe-platform/src/decode.rs",
+      "sha256": "f10263541f270b21d486cf3e2f8ca360f1afe9240df0e5774c5d4bb6ea52a640"
+    },
+    {
+      "path": "crates/wpe-platform/src/export.rs",
+      "sha256": "07f848e06fdffdeec41d202f22c3b4312874a50a5438a07651c75166345c533f"
+    },
+    {
+      "path": "crates/wpe-platform/src/lib.rs",
+      "sha256": "f27bca70066b18b980858e5bf2b97ee9fc916d1cab5e15d225c7d21ff8f6ea99"
+    },
+    {
+      "path": "crates/wpe-platform/src/library.rs",
+      "sha256": "f8685d901acf3d1d2761c44250c1e6b09c87a4df242f284291f1a863e261bfc0"
+    },
+    {
+      "path": "crates/wpe-platform/src/media.rs",
+      "sha256": "0552340fcb3b78c613c5de776da91ef28e9e971db6a7dc5de2ac95f61935e8c1"
+    },
+    {
+      "path": "crates/wpe-platform/src/playback.rs",
+      "sha256": "53ee0ebfd6a3cdcbfe109228a2e44d881b1cfaeca31dcfd108517c9828bb3fbc"
+    },
+    {
+      "path": "crates/wpe-platform/src/service.rs",
+      "sha256": "fb6b184d6330dbcc685cfbf7883b0c7919ad2b950d44fef6d3fa31ca75d08ccf"
+    },
+    {
+      "path": "crates/wpe-platform/src/steam.rs",
+      "sha256": "d1fef5ae8ffb1cc989b34ee94ec64ed7128ca96bfb9adbe44607c113361178b7"
+    },
+    {
+      "path": "crates/wpe-platform/src/steam_apps.rs",
+      "sha256": "df6a28448ef112565a56ac7a498cf8cf02271fe69226e1220166642c6a50040a"
+    },
+    {
+      "path": "crates/wpe-platform/src/workshop.rs",
+      "sha256": "00ac64dc3d3e23fc7ab5860dccfb640eb2bd66f2fa7c83dbf72a86cbe120c9a1"
+    },
+    {
+      "path": "crates/wpe-platform/tests/services.rs",
+      "sha256": "3ff51ccda617c7ff6367edeb9fe8eb6b6257b9c70ec4cb8cafec042d20317111"
+    },
+    {
+      "path": "crates/wpe-platform/tests/steam_ffi.rs",
+      "sha256": "c4e79c8e23574bdece3d4cf1a683873dd2a7a03346be5b6e0924ec89cf1bb417"
+    },
+    {
+      "path": "crates/wpe-platform/tests/steam_mock.c",
+      "sha256": "0ef30ff3da0008115e5021d9da084f5132773c4aa3c1737310195b7327f202c8"
+    },
+    {
+      "path": "crates/wpe-platform/tools/verify-steam-abi.cpp",
+      "sha256": "9a85629658f5d6b6b7896ace37536da7443a5ff3c35a579cc3528a3064706b90"
+    },
+    {
+      "path": "crates/wpe-render/Cargo.toml",
+      "sha256": "9d67e4be395da854606d04674ef04c3a2fa76016872eaad24ad2bbbebe5578eb"
+    },
+    {
+      "path": "crates/wpe-render/examples/compile_audio_corpus.rs",
+      "sha256": "f88a6f164c0ff08030f9d60138d6b45c342499cd8db594c2c4f1dc9d5e9e2e4d"
+    },
+    {
+      "path": "crates/wpe-render/examples/compile_corpus.rs",
+      "sha256": "0fcbe69f177c55808e96e8bd0002dbe8f8bf876ea83c44c8c29f96d35f03dd01"
+    },
+    {
+      "path": "crates/wpe-render/examples/cpu_smoke.rs",
+      "sha256": "810e15d5161a6b6b8db45bc013c05ce4eb220dec5a2bc951019c9993a8acec4c"
+    },
+    {
+      "path": "crates/wpe-render/examples/owned_reference.rs",
+      "sha256": "fc8abc456cc4915defb80979c3815a502e59b41eea11a1833619f931f12c9cf9"
+    },
+    {
+      "path": "crates/wpe-render/src/array_arguments.rs",
+      "sha256": "faa0a453a71caca18472951b3320b1736e8157c4028544c0ce33a55b63258c23"
+    },
+    {
+      "path": "crates/wpe-render/src/blend.rs",
+      "sha256": "be58a7048859747e76e522177b5f739265fdd21037742e60c9efd88ee0c84ed5"
+    },
+    {
+      "path": "crates/wpe-render/src/cpu.rs",
+      "sha256": "3f1e96240bcb55b298d74e9fb3a35f47ec5f580fc68f01a4175e05933d02341d"
+    },
+    {
+      "path": "crates/wpe-render/src/dialect.rs",
+      "sha256": "acb2e9e7b80990e6b9034375e2c24bcd92c18fa22321aed614002b40c4e7a956"
+    },
+    {
+      "path": "crates/wpe-render/src/effect.rs",
+      "sha256": "7716b3c499e48eca68e7b2c127786c255b74be2cb90eb7a8e345c9f74d39c893"
+    },
+    {
+      "path": "crates/wpe-render/src/frame.rs",
+      "sha256": "dd9e65de580f0dabcba3135ca11b7aa27f68b46bf6ee2d9eee35a7ec298e7dc0"
+    },
+    {
+      "path": "crates/wpe-render/src/lib.rs",
+      "sha256": "e556503b7dfa789ed39060f995e7b19a3565bad40e607120d35d608127f19435"
+    },
+    {
+      "path": "crates/wpe-render/src/metal_layout.rs",
+      "sha256": "a4b5f5e804c041a462660bd70f3879982308c46a788f48de8544e04f12ad9dfd"
+    },
+    {
+      "path": "crates/wpe-render/src/shader.rs",
+      "sha256": "9f3bb6be34a0b088a06a4a3f456d0d005b61b864a0dec5bb29c5881aa5bb19db"
+    },
+    {
+      "path": "crates/wpe-render/src/smoke.rs",
+      "sha256": "4efe45c383ba03c0d7407c9f70991eda8e6a5899bf5e9e53b6de3bd8e85a6e66"
+    },
+    {
+      "path": "crates/wpe-render/src/text.rs",
+      "sha256": "9a93df88667583d04980e5b6716c2e255da35cb9e2ae8e2382108596707cc9b3"
+    },
+    {
+      "path": "crates/wpe-render/tests/metal_uniform_layout.rs",
+      "sha256": "f409836bf4e23df55d5b1efad326c04365ad5a73d4b7b2eddc1097049d579406"
+    },
+    {
+      "path": "crates/wpe-render/tests/render_graph.rs",
+      "sha256": "9b339970690eee5ef7ad5afd6fea00696690ebec392d95708793e2746c53470e"
+    },
+    {
+      "path": "crates/wpe-render/tests/text_fonts.rs",
+      "sha256": "14057b851055a9648845b2aacd5a7bf7f236bee0688f87bef5b7d3a68e05f3e1"
+    },
+    {
+      "path": "crates/wpe-screensaver/Cargo.toml",
+      "sha256": "30179342303d85b920925d007249f7d5d291b9543ce5bb50d4587571febe7f6e"
+    },
+    {
+      "path": "crates/wpe-screensaver/src/lib.rs",
+      "sha256": "ab786189fd917354aef9455aa74faddcb1a68c444f58a293d8ebbf65a891dd0d"
+    },
+    {
+      "path": "crates/wpe-screensaver/src/native.rs",
+      "sha256": "ce695fcfa5e4cac740c4646eac9bb8add11b33893d1223ca9c58872efb700ab6"
+    },
+    {
+      "path": "crates/wpe-script/Cargo.toml",
+      "sha256": "b4f56e8b6dc9712670ad9d1a147521bd0635dfe085b86982733cee931f9f41af"
+    },
+    {
+      "path": "crates/wpe-script/examples/asset_scaling.rs",
+      "sha256": "b45ebd577a6ed370b9a2e54dcc3eabac0b08e458c357a668c222ecdd55d925b3"
+    },
+    {
+      "path": "crates/wpe-script/examples/corpus.rs",
+      "sha256": "d5fd9e0c2e1fd250c2d74d38d401f6360951107eb941c3788e2db17a63b3dc5d"
+    },
+    {
+      "path": "crates/wpe-script/src/clock.rs",
+      "sha256": "a1604ad678deee9413c3a68626a8f2494ea6bdebc06876359ebd646b1ca6c045"
+    },
+    {
+      "path": "crates/wpe-script/src/curve.rs",
+      "sha256": "7c41deecfc53ee881bf51eb86b4e1d63d74acf3d88cf79327373b348b1deb1cd"
+    },
+    {
+      "path": "crates/wpe-script/src/error.rs",
+      "sha256": "45d6681a4c8b77bb3c12806215d02314421f0d8ce956abac67d3a351757f0d61"
+    },
+    {
+      "path": "crates/wpe-script/src/host.js",
+      "sha256": "9f160d3ed8fe87ad8e5c5a08b2a5f2b6031ee64018e41247e48f9f68d004d389"
+    },
+    {
+      "path": "crates/wpe-script/src/lib.rs",
+      "sha256": "27ec993c4d4d3f3163d5a9720378b072df942ba62551f5690d94e5081031d98f"
+    },
+    {
+      "path": "crates/wpe-script/src/math.js",
+      "sha256": "696300b24999ef18310dd96a8bcd7ffb246161ae81f18b15efb6e4d72cca530e"
+    },
+    {
+      "path": "crates/wpe-script/src/runtime.rs",
+      "sha256": "b1f215b67306fb341db05f624f582b9df4a94591db02e91f9fe4422a144902d3"
+    },
+    {
+      "path": "crates/wpe-script/src/storage.rs",
+      "sha256": "cf96a99f165b07fcbdba3b6fa8f4dce9503c074f52359e0a321963d5a117f5da"
+    },
+    {
+      "path": "crates/wpe-script/src/types.rs",
+      "sha256": "99a2b991f3ab98669a5333e3bd7aec683c77e133590ca7dfd7236c9a7dfc034b"
+    },
+    {
+      "path": "crates/wpe-script/tests/execution.rs",
+      "sha256": "4f0da3989d465e4bf8a2d03d49bfdae5ffe1dca6ad1d5df102fd136b94e47313"
+    },
+    {
+      "path": "crates/wpe-sim/Cargo.toml",
+      "sha256": "ea3a29f5c7eb2d65a9777d8af4dac1e9bc327b406d8cc788881802aa95397b63"
+    },
+    {
+      "path": "crates/wpe-sim/src/children.rs",
+      "sha256": "b6f51b60aa7ae21afb7c6129e7df08373d6e0fb4b3fca9b67e2d36f75ec8bf44"
+    },
+    {
+      "path": "crates/wpe-sim/src/lib.rs",
+      "sha256": "42e29bf45229f70b03c0794a348fb5544cb4d4a7f837231f038f62eacf6db0de"
+    },
+    {
+      "path": "crates/wpe-sim/src/math.rs",
+      "sha256": "608cc8747a262e4c1eb0b93825401fac6ffe45892c101c6c42b15f0e06a70186"
+    },
+    {
+      "path": "crates/wpe-sim/src/model.rs",
+      "sha256": "81f0f5327f096214e788a6e32821e035f5ea5b9e9c08212316c84ae60a1e7ef1"
+    },
+    {
+      "path": "crates/wpe-sim/src/noise.rs",
+      "sha256": "85e5816ca1cda6526ff2dfba3fb3cac6563fddcf1db65a5f200a699d64b859ac"
+    },
+    {
+      "path": "crates/wpe-sim/src/particle.rs",
+      "sha256": "9ec39479c5c065fd8f2f4bec990546eb2655fc4dc334956bcfe2c3ca8b7c1a30"
+    },
+    {
+      "path": "crates/wpe-sim/src/rng.rs",
+      "sha256": "157f8c69fb9783a1d415dd1bd36122bf4ec91c7f75eeacd1ef382a663b45af66"
+    },
+    {
+      "path": "packaging/dependency-licenses/hexf-parse-0.2.1/upstream/UPSTREAM-LICENSE-DECLARATION.toml",
+      "sha256": "4a56dbdbc12054fd33b7a2634a45cbbe6fe12f5e6f4081002cbfa527f7220c70"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "sha256": "3e9da041cf8d454d57c4fb0bbe0d5f72c424739f9d213abcc6a0db4087ce7f13"
+    },
+    {
+      "path": "scripts/bounded-linux.sh",
+      "sha256": "131a856079467a9b43232de034ada4ace77ff362e2e4aaa749911e9dd9d21cb9"
+    },
+    {
+      "path": "scripts/build-macos.sh",
+      "sha256": "feb5532ed0b60861cddf5c147370a95d13f9e9291c7893c1295510de4e3f16ab"
+    },
+    {
+      "path": "scripts/collect-licenses.py",
+      "sha256": "4a32fc964541cbb744c8d894b38e70ec50ca8c08c4ef507c038d9eb290a3a790"
+    },
+    {
+      "path": "scripts/package-source.py",
+      "sha256": "f32501bb1e0a581d4f28062e2e5f0e716893bac4bc8860d1d7adb4d088e48e30"
+    },
+    {
+      "path": "scripts/setup-bounded-linux.py",
+      "sha256": "11e4742cf24eaee79c2f930411a50e33e8e9ae41f2b7669616ee2b14e5aab735"
+    },
+    {
+      "path": "scripts/verify-macos.py",
+      "sha256": "d5bb11addbdea42bd6a3034b5434a1ac1e3ba23162868cce75a0d93a7f05f320"
+    },
+    {
+      "path": "scripts/verify-macos.sh",
+      "sha256": "1e7b87578ff322d1f72d1047dfcd1d0a3fa24e954ce967c996f93f9ed6fe6bbd"
+    }
+  ],
+  "checks": [
+    {
+      "name": "format",
+      "passed": true,
+      "elapsed_seconds": 0.819
+    },
+    {
+      "name": "web-bridge",
+      "passed": true,
+      "elapsed_seconds": 0.065
+    },
+    {
+      "name": "license-packaging",
+      "passed": true,
+      "elapsed_seconds": 1.121
+    },
+    {
+      "name": "clippy",
+      "passed": true,
+      "elapsed_seconds": 0.667
+    },
+    {
+      "name": "tests",
+      "passed": true,
+      "elapsed_seconds": 76.367
+    }
+  ],
+  "portable_rust_tests_passed": 269,
+  "dependency_license_collection": {
+    "packages": 244,
+    "actual_notice_files": 423,
+    "offline": true
+  },
+  "Darwin_type_checks_of_byte_identical_0_2_1_sources": {
+    "strict_clippy_passed": [
+      "aarch64-apple-darwin",
+      "x86_64-apple-darwin"
+    ],
+    "Apple_SDK_linked": false
+  },
+  "physical_Mac_Metal_validation_of_0_2_1": "pending",
+  "original_engine_equivalence_established": false
+}

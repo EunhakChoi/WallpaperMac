@@ -1,0 +1,22 @@
+{
+  "classification": "entirely-owned-generated-FBX-controls",
+  "generator": "tools/make_fbx_fixtures.py",
+  "original_assets_read": false,
+  "files": [
+    {
+      "path": "owned-skinned-animation-ascii.fbx",
+      "bytes": 3815,
+      "sha256": "5ccf72a387c6799a42273ad19dfa1b7dc78890574ea44bdb997046fab70fd906"
+    },
+    {
+      "path": "owned-skinned-animation-binary.fbx",
+      "bytes": 5712,
+      "sha256": "811b4706cc325fbcef735b9b4f3276a6e4bd3376026c034a541a83de8e41919a"
+    },
+    {
+      "path": "owned-skinned-animation-wide-binary.fbx",
+      "bytes": 7520,
+      "sha256": "030c3827257a4d8cd1c1647f51be09d260c9a0956980b61215ca1a81b8edba6b"
+    }
+  ]
+}

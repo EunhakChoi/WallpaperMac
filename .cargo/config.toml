@@ -1,0 +1,3 @@
+[build]
+# Keep concurrent rustc processes bounded on development and validation hosts.
+jobs = 1

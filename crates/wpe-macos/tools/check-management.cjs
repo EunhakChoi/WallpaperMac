@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const filename=path.join(__dirname,'../src/native/management.html'),html=fs.readFileSync(filename,'utf8');
+const source=html.match(/<script>([\s\S]*?)<\/script>/)[1];new vm.Script(source,{filename});
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,'duplicate element IDs');
+for(const match of source.matchAll(/(?<![A-Za-z_])(?:\$|on)\('([^']+)'/g))assert(ids.includes(match[1]),`missing UI element ${match[1]}`);
+for(const id of ['library','properties','playback','audio','automation','editor','workshop','applications','diagnostics','exportstart','exportcancel','objectapply','saverfolder','assetsfolder'])assert(ids.includes(id),`missing public entry ${id}`);
+assert(html.includes('default-src \'none\''));assert(!source.includes('innerHTML='));
+assert(source.includes('host_completions')&&source.includes('r.value?.ok===false'),'host errors must be visible');
+console.log(JSON.stringify({passed:true,source:'src/native/management.html',syntax:'actual inline source compiled by NodeVM',unique_element_ids:ids.length,required_entry_points:14,host_completion_errors_visible:true,native_webview_execution:0}));

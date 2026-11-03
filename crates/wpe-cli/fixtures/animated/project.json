@@ -1,0 +1,1 @@
+{"type":"scene","title":"WallpaperMac — motion, scripts and particles","file":"scene.json","general":{"properties":{"speed":{"type":"slider","text":"Motion speed","value":1,"min":0,"max":3},"particles":{"type":"bool","text":"Show particles","value":true}}}}

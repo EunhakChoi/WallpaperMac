@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.fbx -text
+*.mdl -text
+*.tex -text
+*.rgba -text
+*.rgba32f -text
+*.decoded -text
+*.mp4 -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
